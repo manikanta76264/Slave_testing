@@ -2,7 +2,7 @@ pipeline{
 	agent none
 stages{
 	stage("checking salve exicution"){
-	agent {lable 'aws' }
+	agent {label 'aws' }
 	steps{
 	    echo "i am salve!!"
 	}
